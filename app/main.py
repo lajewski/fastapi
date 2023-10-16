@@ -35,7 +35,7 @@ app.include_router(vote.router)
 
 @app.get("/")  # the decorator denoted by @ sign (determines the end of the url path to access the specific api service e.g. /prod/getSegments)
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello JB"}
 
 
 
